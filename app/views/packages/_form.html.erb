@@ -1,0 +1,4 @@
+<%= form_for([@courier, @courier.packages.build]) do |f| %>
+  <%= f.text_field :tracking_number, placeholder: "New Package" %>
+  <%= f.submit %>
+<% end %>
